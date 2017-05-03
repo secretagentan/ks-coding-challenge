@@ -34,17 +34,24 @@ img {
 /*====================*/
 /* ADDITIONAL STYLING */
 /*====================*/
+.pre-header {
+  background-color: #000000;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px;
+  font-weight: 300;
+  letter-spacing: 1.2px;
+}
 table.outer {
   Margin: 0 auto;
-  /*capitalize Margin so that Outlook won’t strip it out*/
   width: 100%;
   max-width: 600px;
   background: #eee;
 }
 .main-image {
-  padding: 4%;
-  width: 100%;
-  max-width: 600px;
+  Margin: 0 auto;
+  width: 94%;
+  max-width: 560px;
   height: auto;
 }
 .inner{
@@ -58,6 +65,18 @@ table.outer {
 a.shop {
   display: block;
   Margin: 10px;
+}
+.shop-btn {
+  color: #ffffff;
+  background-color: #000000;
+  font-size: 20px;
+  width: 50%;
+  font-weight: 300;
+  border: none;
+}
+.btn-large-text {
+  font-size: 30px;
+  letter-spacing: 2px;
 }
 
 /* two column w/ sidebar layout */
@@ -75,22 +94,3 @@ a.shop {
 .right-sidebar .right {
   max-width: 200px;
 }
-/*.email-content {
-  background-color: thistle;
-}
-.pre-header {
-  height: 40px;
-  color: #ffffff;
-  background-color: #000000;
-  text-align: center;
-}
-.email-background {
-  background-image: url(http://i.imgur.com/bAUS87h.jpg?1);
-}
-img.logo {
-  width: 30%;
-}
-.email-header {
-  padding: 10px;
-}
-*/
