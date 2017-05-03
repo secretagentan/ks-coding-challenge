@@ -4,7 +4,7 @@
 body {
   margin: 0 !important;
   padding: 0;
-  background-color: #ffffff;
+  background-color: #eee;
   font-family: Arial, sans-serif;
 }
 table {
@@ -46,7 +46,7 @@ table.outer {
   Margin: 0 auto;
   width: 100%;
   max-width: 600px;
-  background: #eee;
+  background: #fff;
 }
 .main-image {
   Margin: 0 auto;
@@ -62,6 +62,10 @@ table.outer {
 .one-column .contents {
   text-align: center;
 }
+p.h1 {
+  font-size: 26px;
+  font-weight: 100;
+}
 a.shop {
   display: block;
   Margin: 10px;
@@ -69,18 +73,21 @@ a.shop {
 .shop-btn {
   color: #ffffff;
   background-color: #000000;
-  font-size: 20px;
-  width: 50%;
+  font-size: 18px;
+  width: 60%;
   font-weight: 300;
   border: none;
+  padding: 10px;
 }
 .btn-large-text {
-  font-size: 30px;
+  font-size: 26px;
   letter-spacing: 2px;
 }
 
 /* two column w/ sidebar layout */
 .right-sidebar {
+  background-color: #000000;
+  color: #ffffff;
   text-align: center;
 }
 .right-sidebar .column {
@@ -89,8 +96,20 @@ a.shop {
   vertical-align: middle;
 }
 .right-sidebar .left {
-  max-width: 400px;
+  max-width: 396px;
 }
 .right-sidebar .right {
-  max-width: 200px;
+  max-width: 196px;
+}
+a.social-links {
+  display: inline;
+  text-decoration: none;
+}
+p.h3 {
+  font-size: 18px;
+  font-weight: 300;
+}
+img.social-logos {
+  height: 36px;
+  margin: 0 4%;
 }
