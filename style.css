@@ -27,7 +27,7 @@ img {
   -ms-text-size-adjust: 100%;
 }
 .webkit {
-  max-width: 600px;
+  max-width: 620px;
   margin: 0 auto;
 }
 
@@ -45,7 +45,7 @@ img {
 table.outer {
   Margin: 0 auto;
   width: 100%;
-  max-width: 600px;
+  max-width: 620px;
   background: #fff;
 }
 .main-image {
@@ -61,27 +61,31 @@ table.outer {
 /* single column layout*/
 .one-column .contents {
   text-align: center;
+  font-size: 0;
 }
 p.h1 {
-  font-size: 26px;
-  font-weight: 100;
+  font-size: 28px;
+  font-weight: 200;
 }
 a.shop {
+  text-decoration: none;
   display: block;
   Margin: 10px;
 }
 .shop-btn {
   color: #ffffff;
   background-color: #000000;
-  font-size: 18px;
-  width: 60%;
+  font-size: 22px;
+  width: 58%;
   font-weight: 300;
   border: none;
-  padding: 10px;
+  padding: 1%;
+  Margin-bottom: 3%;
 }
 .btn-large-text {
-  font-size: 26px;
+  font-size: 36px;
   letter-spacing: 2px;
+  font-weight: 400;
 }
 
 /* two column w/ sidebar layout */
@@ -89,6 +93,8 @@ a.shop {
   background-color: #000000;
   color: #ffffff;
   text-align: center;
+  font-size: 0;
+  padding-top: 18px;
 }
 .right-sidebar .column {
   width: 100%;
@@ -111,5 +117,36 @@ p.h3 {
 }
 img.social-logos {
   height: 36px;
-  margin: 0 4%;
+  margin: 0 5%;
+}
+
+/* three column layout */
+.three-column {
+  font-size: 0;
+  background-color: #000000;
+  color: #ffffff;
+}
+.three-column .column {
+  width: 100%;
+  display: inline-block;
+  max-width: 200px;
+  vertical-align: bottom;
+  Margin: 10px 0;
+}
+td.inner {
+  padding: 0;
+}
+a.footer {
+  color: #ffffff;
+}
+td.text {
+}
+td.left-align {
+  text-align: left;
+  font-size: 10px;
+  padding-left: 20px;
+}
+td.right-align {
+  font-size: 9px;
+  text-align: right;
 }
