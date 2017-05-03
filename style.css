@@ -41,7 +41,8 @@ table.outer {
   max-width: 600px;
   background: #eee;
 }
-.full-width-image img {
+.main-image {
+  padding: 4%;
   width: 100%;
   max-width: 600px;
   height: auto;
@@ -59,9 +60,21 @@ a.shop {
   Margin: 10px;
 }
 
-
-
-
+/* two column w/ sidebar layout */
+.right-sidebar {
+  text-align: center;
+}
+.right-sidebar .column {
+  width: 100%;
+  display: inline-block;
+  vertical-align: middle;
+}
+.right-sidebar .left {
+  max-width: 400px;
+}
+.right-sidebar .right {
+  max-width: 200px;
+}
 /*.email-content {
   background-color: thistle;
 }
