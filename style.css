@@ -48,13 +48,25 @@ table.outer {
   max-width: 620px;
   background: #fff;
 }
+.email-header {
+  vertical-align: top;
+  Margin: 3% 0 2% 0;
+}
+img.ks-logo {
+  width: 30%;
+}
+a.header-nav {
+  text-decoration: none;
+  color: #000000;
+  padding: 2%;
+}
 .main-image {
   Margin: 0 auto;
   width: 94%;
   max-width: 560px;
   height: auto;
 }
-.inner{
+.main-inner {
   padding: 10px;
 }
 
