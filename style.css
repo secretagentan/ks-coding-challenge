@@ -1,4 +1,11 @@
 /*================*/
+/*    WEB FONTS   */
+/*================*/
+@import url('https://fonts.googleapis.com/css?family=Yantramanav:100,400,500');
+@import url('https://fonts.googleapis.com/css?family=Archivo+Narrow:400,700');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300');
+
+/*================*/
 /* INITIAL STYLES */
 /*================*/
 body {
@@ -17,9 +24,6 @@ td {
 img {
   border: 0;
 }
-/*div[style*="margin: 16px 0"] {
-    margin:0 !important;
-}*/
 .wrapper {
   width: 100%;
   table-layout: fixed;
@@ -47,6 +51,11 @@ table.outer {
   width: 100%;
   max-width: 620px;
   background: #fff;
+}
+td.pre-header {
+  font-family: "Yantramanav", "Trebuchet MS", sans-serif;
+  font-weight: 400;
+  letter-spacing: 2.4px;
 }
 /* two column w/ left sidebar layout */
 .left-sidebar {
@@ -77,9 +86,11 @@ img.ks-logo {
 }
 a.header-links {
   padding-left: 10%;
-  font-size: 20px;
-  font-weight: 400;
+  font-family: "Archivo Narrow", "Arial Narrow", sans-serif;
+  font-size: 22px;
+  font-weight: 700;
   text-decoration: none;
+  letter-spacing: 1.2px;
   color: #000000;
 }
 .main-image {
@@ -98,8 +109,10 @@ a.header-links {
   font-size: 0;
 }
 p.h1 {
-  font-size: 28px;
+  font-family: "Source Sans Pro", "Trebuchet MS", sans-serif;
+  font-size: 30px;
   font-weight: 200;
+  letter-spacing: 1.4px;
 }
 a.shop {
   text-decoration: none;
@@ -110,13 +123,16 @@ a.shop {
   color: #ffffff;
   background-color: #000000;
   font-size: 22px;
+  font-family: "Archivo Narrow", "Arial Narrow", sans-serif;
+  font-weight: 400;
   width: 58%;
-  font-weight: 300;
+  letter-spacing: 1.4px;
   border: none;
   padding: 1%;
   Margin-bottom: 3%;
 }
 .btn-large-text {
+  font-family: Arial, sans-serif;
   font-size: 36px;
   letter-spacing: 2px;
   font-weight: 400;
@@ -128,7 +144,7 @@ a.shop {
   color: #ffffff;
   text-align: center;
   font-size: 0;
-  padding-top: 18px;
+  padding-top: 1%;
 }
 .right-sidebar .column {
   width: 100%;
@@ -146,8 +162,10 @@ a.social-links {
   text-decoration: none;
 }
 p.h3 {
-  font-size: 18px;
-  font-weight: 300;
+  font-family: "Yantramanav", "Trebuchet MS", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 1.6px;
 }
 img.social-logos {
   height: 36px;
@@ -174,13 +192,12 @@ a.footer {
   color: #ffffff;
 }
 td.text {
+  font-size: 9.5px;
 }
 td.left-align {
   text-align: left;
-  font-size: 10px;
   padding-left: 20px;
 }
 td.right-align {
-  font-size: 9px;
   text-align: right;
 }
